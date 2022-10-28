@@ -1,0 +1,6 @@
+#!/usr/bin/env perl
+while (<>) {
+  chomp;
+  /\Wfried\W/;
+  print "You mean to tell me a $` cooked this $'?\n"
+}
